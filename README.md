@@ -1,10 +1,19 @@
-# AppShop 🏗
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-En este proyecto veremos como se pueden comunicar los componentes que no son padre-hijo y viceversa, mediante los observables👀.  
+## Build
 
-Se ha utilizado la libreria RxJS para esta comunicación. Una de las formas más óptimas de enviar información entre componentes.  
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Este proyecto representa una tienda con su 🥡 carrito de compras. Para la obtención de los distintos productos se ha utilizado una API pública.
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-.::. ¡¡El código es público, si te ayuda y lo usas no olvides mencionarme!! .::. 
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![image](https://github.com/Adrianafh95/Ecommerce/assets/91233733/a5f70c39-5800-4849-9360-8c979c2c6eee)
