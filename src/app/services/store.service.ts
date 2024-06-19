@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, lastValueFrom } from 'rxjs';
-import { Product } from '../interfaces/product_interface';
+import { Product } from '../interfaces/product.interface';
 
 
 @Injectable({
@@ -78,3 +78,5 @@ export class StoreService {
     return total
   }
 }
+
+

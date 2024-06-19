@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
-})
-export class HomeComponent {
 
-    // constructor() { };
+@Component({
+  selector: 'app-main',
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.scss']
+})
+export class MainComponent {
+
+
+  // constructor() { };
 
   // async ngOnInit() {
 
@@ -18,5 +18,6 @@ export class HomeComponent {
 
 
   // };
+
 
 }
